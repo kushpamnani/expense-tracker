@@ -17,6 +17,7 @@ This project was created as part of an assignment requiring:
 ---
 
 ## 📁 Project Structure
+```
 ExpenseTracker/
 │
 ├── src/
@@ -27,6 +28,7 @@ ExpenseTracker/
 ├── data.txt
 ├── README.md
 └── presentation.pdf 
+```
 
 ---
 
@@ -152,4 +154,3 @@ presentation.pdf
 
 ## 📬 Author
 Kush Pamnani  
-Java Expense Tracker Project
