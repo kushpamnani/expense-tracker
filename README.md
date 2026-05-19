@@ -149,8 +149,3 @@ presentation.pdf
 | Command-line interface | ✔ |
 | Presentation included | ✔ |
 | GitHub repo created | ✔ |
-
----
-
-## 📬 Author
-Kush Pamnani  
