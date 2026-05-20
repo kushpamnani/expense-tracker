@@ -117,8 +117,9 @@ public class ExpenseManager {
     }
 
     public void listAllExpenses() {
-        for (Expense e : expenses) {
-            System.out.println(e.getDate() + " | " + e.getCategory() + " | $" + e.getAmount());
+        for (int i = 0; i < expenses.size(); i++) {
+            Expense e = expenses.get(i);
+            System.out.println(i + " | " + e.getDate() + " | " + e.getCategory() + " | $" + e.getAmount());
         }
     }
 }
