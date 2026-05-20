@@ -39,6 +39,18 @@ public class ExpenseManager {
         }
     }
 
+    private void saveAllExpenses() {
+    try (BufferedWriter writer = new BufferedWriter(new FileWriter("data.txt"))) {
+        for (Expense e : expenses) {
+            writer.write(e.getCategory() + "," + e.getAmount() + "," + e.getDate());
+            writer.newLine();
+        }
+    } catch (IOException e) {
+        System.out.println("Error saving file.");
+    }
+}
+
+
     public double getTotalExpense() {
         double total = 0;
         for (Expense e : expenses) {
